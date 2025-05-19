@@ -1,0 +1,34 @@
+
+# Projeto de Automação com Puppeteer
+
+Este projeto utiliza o **Puppeteer** para automação de páginas web. Ideal para captura de dados, testes automatizados ou interações programadas com páginas web.
+
+---
+
+## 🚀 Pré-requisitos
+
+Certifique-se de ter o **Node.js** instalado. Você pode verificar com:
+
+```bash
+node -v
+npm -v
+
+📦 Instalação
+1. Instale as dependências do projeto:
+
+npm install
+
+2. Instale o navegador Chrome controlado pelo Puppeteer:]
+npx puppeteer browsers install chrome
+
+
+// Exemplo dentro do gerar_selectors.js
+const username = 'seu_usuario';
+const password = 'sua_senha';
+
+⚠️ Atenção: Evite subir esse arquivo com credenciais para repositórios públicos. Use variáveis de ambiente ou arquivos .env em projetos reais.
+
+
+▶️ Executando o Script
+node gerar_selectors.js
+
